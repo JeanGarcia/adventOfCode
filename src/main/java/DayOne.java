@@ -2,6 +2,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * DayOne
+ *
+ * @author Jean
+ * @since 05/12/2024
+ */
 public class DayOne {
 
     public static Integer findAddedDistanceBetweenTwoLists(List<Integer> leftList, List<Integer> rightList) {
