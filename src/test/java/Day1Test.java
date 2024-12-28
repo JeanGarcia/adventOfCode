@@ -11,17 +11,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Jean
  * @since 05/12/2024
  */
-public class DayOneTest {
+public class Day1Test {
 
     @Test
     public void shouldReturnTheAddedDistance() {
-        Integer result = DayOne.findAddedDistanceBetweenTwoLists(getLeftList(), getRightList());
+        Integer result = Day1.findAddedDistanceBetweenTwoLists(getLeftList(), getRightList());
         assertEquals(2057374, result);
     }
 
     @Test
     public void shouldReturnTheSimilarityScore() {
-        Integer result = DayOne.findSimilarityScore(getLeftList(), getRightList());
+        Integer result = Day1.findSimilarityScore(getLeftList(), getRightList());
         assertEquals(23177084, result);
     }
 

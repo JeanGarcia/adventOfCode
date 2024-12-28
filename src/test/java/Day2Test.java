@@ -8,23 +8,23 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Jean
  * @since 06/12/2024
  */
-public class DayTwoTest {
+public class Day2Test {
 
     @Test
     public void shouldReturnTheNumberOfSafeReportsWithoutTolerance() {
-        Integer resultSubSet = DayTwo.safeReportsCount(getReportsSubSet(), 0);
+        Integer resultSubSet = Day2.safeReportsCount(getReportsSubSet(), 0);
         assertEquals(3, resultSubSet);
 
-        Integer result = DayTwo.safeReportsCount(getReports(), 0);
+        Integer result = Day2.safeReportsCount(getReports(), 0);
         assertEquals(572, result);
     }
 
     @Test
     public void shouldReturnTheNumberOfSafeReportsWithTolerance() {
-        int resultSubSet = DayTwo.safeReportsCount(getReportsSubSet(), 1);
+        int resultSubSet = Day2.safeReportsCount(getReportsSubSet(), 1);
         assertEquals(17, resultSubSet);
 
-        int result = DayTwo.safeReportsCount(getReports(), 1);
+        int result = Day2.safeReportsCount(getReports(), 1);
         assertEquals(612, result);
     }
 

@@ -4,7 +4,7 @@
  * @author Jean
  * @since 06/12/2024
  */
-public class DayTwo {
+public class Day2 {
 
     public static int safeReportsCount(int[][] reports, int tolerance) {
         int counter = 0;

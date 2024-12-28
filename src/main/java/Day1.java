@@ -8,7 +8,7 @@ import java.util.Map;
  * @author Jean
  * @since 05/12/2024
  */
-public class DayOne {
+public class Day1 {
 
     public static Integer findAddedDistanceBetweenTwoLists(List<Integer> leftList, List<Integer> rightList) {
         leftList.sort(Integer::compareTo);
